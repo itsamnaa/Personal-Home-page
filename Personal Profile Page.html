@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+   <!-- Font Awesome v6 (brands set) -->
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding-left: 0;
+             font-family: Arial, Helvetica, sans-serif;
+             box-sizing: border-box;
+        }
+        body{
+             background: #f4f6f9;
+             color: #333;
+             line-height: 1.6;
+        }
+        .header{
+           background: linear-gradient(135deg, #eaad82, #c96b13);
+           text-align: center;
+            color: white;
+           padding: 2rem;
+            font-size: 1.5rem;
+           letter-spacing: 2px;
+        }
+        nav .links{
+             justify-content: center;
+            gap: 3rem;
+             background: #fff;
+             padding: 1rem;
+             border-bottom: 1px solid #ddd;
+            text-decoration: underline;
+            text-align: center;
+            
+        }
+      nav.links a{
+         background-color: #333;
+        font-weight: bold;
+        transition: color 0.3s;
+        text-align: center;
+         color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+        
+      }
+        nav.links a:hover {
+        color: white;
+}
+      .about-me {
+    text-align: center;
+    padding: 2rem;
+}
+      .about-me img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 1rem 0;
+    border: 3px solid #e3ac45;
+}
+.about-me p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+.skills {
+    background: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.skills h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fc9b25;
+}
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+.skills li {
+    background: #eca765;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+ .footer .social-icons a {
+    width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s;
+ }
+ .footer .social-icons a:hover {
+  background-color: #e69c26;
+  border-color: #fc804b;
+  transform: translateY(-2px);
+}
+    </style>
+</head>
+<body>
+    <Header class="header"> <h1><b>𝓐𝓶𝓷𝓪 𝓐𝓼𝓱𝓲𝓺~</b></h1>
+    <nav class="links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    </Header>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <img src="amna-avatar.png" alt="amna-avatar">
+        <p>Passionate B.Sc. IT student with a strong
+         foundation in HTML, CSS, and JavaScript,
+         and a keen eye for UI/UX design. Eager to
+         contribute creative web solutions and
+         grow as a front-end developer in a
+         dynamic team environment.</p>
+    </section>
+    <section class="skills">
+         <h2>Skills</h2>
+         <ul>
+            <li>
+                HTML
+            </li>
+             <li>
+               CSS
+            </li>
+             <li>
+                JavaScript
+            </li>
+             <li>
+                Python
+            </li>
+             <li>
+                AI
+            </li>
+         </ul>
+    </section>
+ <footer class="footer">
+  <p>© 2025 Amna Ashiq. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+  </div>
+</footer>
+</body>
+</html>
